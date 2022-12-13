@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+    font-family: "Sen", sans-serif;
+  }
+  
+  .logo-container {
+    flex: 1;
+  }
+  
+  .logo {
+    font-size: 30px;
+    color: #4dbf00;
+  }
+  
+  .menu-container {
+    flex: 6;
+  }
+  
+  .menu-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu-list-item {
+    margin-right: 30px;
+  }
+  
+  .menu-list-item.active {
+    font-size: large;
+    font-weight: bold;
+  }
+  .menu-list-item.active {
+    font-size: large;
+    font-weight: bold;
+  }
+  .menu-list-item.active a{
+    text-decoration: none;
+  }
+  .menu-list-item.active a:link{
+    color: white;
+  }
+  .menu-list-item.active a:visited{
+    color: white;
+  }
+  .menu-list-item a{
+    text-decoration: none;
+  }
+  .menu-list-item a:link{
+    color: white;
+  }
+  .menu-list-item a:visited{
+    color: white;
+  }
+  .profile-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .profile-text-container {
+    margin: 0 20px;
+    font-weight: bold;
+  }
+
+  .profile-text{
+    text-decoration: none;
+  }
+
+  .profile-text:link{
+    color: white;
+}
+  .profile-text:visited{
+    color: white;
+}
+  .profile-text:hover{
+    color: yellow;
+}
+  
+  .profile-picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+  }
+
+    .sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .left-menu-icon {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  .container {
+    background-color: #151515;
+    min-height: calc(105vh - 50px);
+    color: white;
+  }
+  .container {
+    background-color: #151515;
+    min-height: calc(100% - 50px);
+    color: white;
+  }
+  .header{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 38px;
+  }
+  .seating{
+    height: 1500px;
+    width: 900px;
+    padding: 65px;
+    float: center;
+  }
+  .seating img{
+    max-height: 100%;
+    max-width: 100%;
+    border: 2px solid whitesmoke;
+    margin-left: 265px;
+    margin-top: 20px;
+  }
+  .seats {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 40px;
+    padding: 15px;
+  }
+  .c1 i{
+    top: -1458px;
+    left: 348px;
+    position: relative;
+  }
+  .c2 i{
+    top: -1501px;
+    left: 1028px;
+    position: relative;
+  }
+  .row1 i{
+    top: -1466px;
+    left: 348px;
+    position: relative;
+  }
+  .row2 i{
+    top: -1431px;
+    left: 348px;
+    position: relative;
+  }
+  .row3 i{
+    top: -1396px;
+    left: 348px;
+    position: relative;
+  }
+  .row4 i{
+    top: -1361px;
+    left: 348px;
+    position: relative;
+  }
+  .row5 i{
+    top: -1326px;
+    left: 348px;
+    position: relative;
+  }
+  .container2{
+    color: white;
+    position: absolute;
+    top: 105%;
+    left: 38%;
+  }
+  .container2 h1{
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid turquoise;
+    margin-bottom: 15px;
+    padding: 13px;
+  }
+.box{
+  color: white;
+  width: 100%;
+  margin: 22px 0px;
+  border-bottom: 2px solid turquoise;
+}
+.box input{
+    background: none ;
+    width: 75%;
+    margin: 12px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    color: white;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.button{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid turquoise;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.button a{
+    text-decoration: none;
+}
+.button a:visited{
+    color: turquoise;
+}
+.button a:link{
+    color: turquoise;
+}
+.button a:hover{
+    color: turquoise;
+}
+.button:hover{
+    color: turquoise;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid turquoise;
+    border-radius: 10px;
+    font-size: 18px;
+    background: aliceblue;
+    font-weight: bold;
+}

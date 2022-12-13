@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img/bg1.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.container h1{
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid turquoise;
+    margin-bottom: 15px;
+    padding: 13px;
+}
+.box{
+    color: white;
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom: 2px solid turquoise;
+}
+.box input{
+    background: none ;
+    width: 75%;
+    margin: 12px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    color: white;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.button{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid turquoise;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.button a{
+    text-decoration: none;
+}
+.button a:visited{
+    color: turquoise;
+}
+.button a:link{
+    color: turquoise;
+}
+.button a:hover{
+    color: turquoise;
+}
+.button:hover{
+    color: turquoise;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid turquoise;
+    border-radius: 10px;
+    font-size: 18px;
+    background: aliceblue;
+    font-weight: bold;
+}
+.sign-in{
+    display: block;
+    position: absolute;
+    margin: auto;
+    height: 80px;
+    width: 250px;
+    background: none;
+    top: 547px;
+    bottom: 0;
+    left: 0;
+    right: -260px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+.sign-in a{
+    text-decoration: none;
+}
+.sign-in a:link{
+    color: white;
+}
+.sign-in a:visited{
+    color: hotpink;
+}
+.sign-in a:hover{
+    color: yellow;
+}
